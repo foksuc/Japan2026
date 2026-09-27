@@ -1,0 +1,1209 @@
+{
+  "trip": {
+    "start": "2026-11-17",
+    "end": "2026-12-02",
+    "public_trip_window": "2026-11-18 — 2026-12-01",
+    "route": "Москва → Токио → Киото → Осака → Токио → Пекин → Москва",
+    "verification_date": "2026-09-28"
+  },
+  "status_legend": {
+    "VERIFIED": "Подтверждено актуальным источником",
+    "USER DATA": "Дано в исходном маршруте или загруженном itinerary PDF",
+    "ESTIMATE": "Расчётная/приблизительная величина",
+    "UNVERIFIED": "Найдено в исходнике, но актуальность не подтверждена",
+    "CONFLICT": "Есть расхождение между исходником и актуальным/официальным источником"
+  },
+  "cities": [
+    {
+      "key": "tokyo",
+      "name": "Токио",
+      "nights": "5 ночей (4 + 1)",
+      "hotel": "ano Hotel asakusa",
+      "hotel_address_original": "2-8-1 Asakusa, Taito-ku, Tokyo 111-0032",
+      "hotel_address_verified": "1-14-7 Higashi-Komagata, Sumida-ku, Tokyo 130-0005",
+      "status": "CONFLICT",
+      "hotel_url": "https://hpdsp.jp/anohotelasakusa/"
+    },
+    {
+      "key": "kyoto",
+      "name": "Киото",
+      "nights": "3 ночи",
+      "hotel": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
+      "hotel_address_original": "391-1 Shiogamacho, Shimogyo-ku, Kyoto 600-8103",
+      "hotel_address_verified": "391-1 Shiogamacho, Gojodori-Sakaimachi-Nishiru, Shimogyo-ku, Kyoto 600-8103",
+      "status": "VERIFIED",
+      "hotel_url": "https://sotetsu-hotels.com/en/fresa-inn/kiyomizugojo/"
+    },
+    {
+      "key": "osaka",
+      "name": "Осака",
+      "nights": "5 ночей",
+      "hotel": "Henn na Hotel Osaka Namba",
+      "hotel_address_original": "2-10-16 Nishishinsaibashi, Chuo Ward, Osaka 542-0086",
+      "hotel_address_verified": "2-10-16 Nishishinsaibashi, Chuo-ku, Osaka 542-0086",
+      "status": "VERIFIED",
+      "hotel_url": "https://global.hennnahotel.com/en/nishishinsaibashi/"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-11-18",
+      "day": 1,
+      "city": "Токио",
+      "overnight": "ano Hotel asakusa",
+      "theme": "Прилёт и вечер в Асакусе",
+      "items": [
+        [
+          "13:15",
+          "Прилёт в Narita (NRT)",
+          "USER DATA",
+          "1 ч 05 мин",
+          "Загруженный itinerary PDF"
+        ],
+        [
+          "13:15–14:15",
+          "NRT → Asakusa / отель, Keisei Access",
+          "USER DATA",
+          "50–60 мин",
+          "Исходный маршрут"
+        ],
+        [
+          "15:00",
+          "Заселение / размещение",
+          "ESTIMATE",
+          "—",
+          "Исходный маршрут"
+        ],
+        [
+          "17:00–19:30",
+          "Сэнсо-дзи, Накамисэ, Каминаримон",
+          "CONFLICT",
+          "2 ч 30 мин",
+          "В ноябре главный зал закрывается в 16:30; территория храма остаётся доступной"
+        ],
+        [
+          "19:30",
+          "Ужин в Асакусе",
+          "USER DATA",
+          "—",
+          "Daikokuya / Namiki Yabu Soba и др."
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "day": 2,
+      "city": "Токио",
+      "overnight": "ano Hotel asakusa",
+      "theme": "Уэно → Синдзюку Гёэн → Сибуя",
+      "items": [
+        [
+          "07:00–08:30",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч 30 мин",
+          "Исходник"
+        ],
+        [
+          "09:00–12:00",
+          "Парк Уэно",
+          "USER DATA",
+          "3 ч",
+          "Парк постоянно открыт; отдельные музеи имеют свои часы"
+        ],
+        [
+          "12:00–14:00",
+          "Обед + переезд к Синдзюку",
+          "ESTIMATE",
+          "2 ч",
+          "Точное время переезда в исходнике не указано"
+        ],
+        [
+          "14:00–16:30",
+          "Синдзюку Гёэн",
+          "CONFLICT",
+          "2 ч 30 мин",
+          "Последний вход 16:00; закрытие 16:30"
+        ],
+        [
+          "17:00–21:00",
+          "Сибуя / Shibuya Crossing / Hachiko / SHIBUYA SKY",
+          "USER DATA",
+          "4 ч",
+          "Исходник"
+        ],
+        [
+          "21:00",
+          "Возвращение в отель",
+          "ESTIMATE",
+          "—",
+          "Точное время не задано"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "day": 3,
+      "city": "Токио",
+      "overnight": "ano Hotel asakusa",
+      "theme": "Гора Такао",
+      "items": [
+        [
+          "06:30–07:30",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "07:30–08:55",
+          "Asakusa → Shinjuku → Takaosanguchi",
+          "USER DATA",
+          "≈85 мин",
+          "Исходник: 35 + 50 мин"
+        ],
+        [
+          "09:00–15:00",
+          "Гора Такао / Yakuoin / Trail 1 / канатка",
+          "USER DATA",
+          "6 ч",
+          "Канатка: актуально ¥490 в одну сторону; исходник ¥480"
+        ],
+        [
+          "15:00",
+          "Возвращение в Токио",
+          "USER DATA",
+          "—",
+          "Исходник"
+        ],
+        [
+          "вечер",
+          "Свободный вечер / дождь: teamLab Planets или Miraikan",
+          "ALTERNATIVE",
+          "—",
+          "Альтернатива из исходника"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "day": 4,
+      "city": "Токио",
+      "overnight": "ano Hotel asakusa",
+      "theme": "Мэйдзи-дзингу → Коракуэн → Кагурадзака → Маруноути",
+      "items": [
+        [
+          "05:30–06:00",
+          "Подъём",
+          "USER DATA",
+          "30 мин",
+          "Исходник"
+        ],
+        [
+          "06:30–08:30",
+          "Мэйдзи-дзингу",
+          "VERIFIED",
+          "2 ч",
+          "В ноябре 06:10–16:10; бесплатно"
+        ],
+        [
+          "08:30–10:30",
+          "Переезд + запас",
+          "ESTIMATE",
+          "2 ч",
+          "Исходник приводит прибытие к Коракуэн к 10:30"
+        ],
+        [
+          "11:00–13:00",
+          "Koishikawa Korakuen",
+          "UNVERIFIED",
+          "2 ч",
+          "Исходник: 09:00–17:00, ¥300; цена требует проверки"
+        ],
+        [
+          "13:00–17:00",
+          "Обед + переезд/резерв",
+          "ESTIMATE",
+          "4 ч",
+          "Детальная разбивка отсутствует"
+        ],
+        [
+          "17:00–19:30",
+          "Кагурадзака",
+          "USER DATA",
+          "2 ч 30 мин",
+          "Исходник"
+        ],
+        [
+          "19:30–21:30",
+          "Маруноути (опционально)",
+          "UNVERIFIED",
+          "2 ч",
+          "Конкретные часы/иллюминации 2026 требуют проверки"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "day": 5,
+      "city": "Токио → Киото",
+      "overnight": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
+      "theme": "Синкансэн и вечерняя Киёмидзу-дэра",
+      "items": [
+        [
+          "07:00–09:00",
+          "Подъём, завтрак, сборы",
+          "USER DATA",
+          "2 ч",
+          "Исходник"
+        ],
+        [
+          "09:00–≈11:40",
+          "Tokyo → Kyoto, Hikari",
+          "USER DATA",
+          "2 ч 40 мин",
+          "Точный поезд и тариф не указаны"
+        ],
+        [
+          "≈11:40–16:00",
+          "Переезд до отеля, багаж, заселение/резерв",
+          "ESTIMATE",
+          "≈4 ч 20 мин",
+          "Точная последовательность не зафиксирована"
+        ],
+        [
+          "16:00–18:00",
+          "Kiyomizu-dera",
+          "VERIFIED",
+          "2 ч",
+          "21–30 ноября 2026 официально до 21:30, last entry 21:00"
+        ],
+        [
+          "вечер",
+          "Ужин в Хигасияме",
+          "USER DATA",
+          "—",
+          "Юдофу / обадзай"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "day": 6,
+      "city": "Киото",
+      "overnight": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
+      "theme": "Кинкаку-дзи → Рёан-дзи → Нисики → Гион",
+      "items": [
+        [
+          "07:30–08:15",
+          "Подъём и выезд",
+          "USER DATA",
+          "45 мин",
+          "Исходник"
+        ],
+        [
+          "09:00–10:00",
+          "Kinkaku-ji",
+          "CONFLICT",
+          "1 ч",
+          "Исходник ¥400; официальный текущий тариф ¥500"
+        ],
+        [
+          "10:30–12:00",
+          "Ryoan-ji",
+          "UNVERIFIED",
+          "1 ч 30 мин",
+          "Исходник: 08:00–17:00 / ¥600; актуальную цену нужно проверить"
+        ],
+        [
+          "12:00–13:00",
+          "Переезд + обед",
+          "ESTIMATE",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "13:00–15:00",
+          "Nishiki Market",
+          "VERIFIED",
+          "2 ч",
+          "Официальный портал просит не есть на ходу"
+        ],
+        [
+          "16:00–20:00",
+          "Gion / Yasaka Shrine",
+          "USER DATA",
+          "4 ч",
+          "Исходник"
+        ],
+        [
+          "20:00",
+          "Ужин",
+          "USER DATA",
+          "—",
+          "Gion Karyo / Gion Manma"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "day": 7,
+      "city": "Киото",
+      "overnight": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo",
+      "theme": "Фусими Инари → Арасияма",
+      "items": [
+        [
+          "06:00–06:15",
+          "Подъём и выезд",
+          "USER DATA",
+          "15 мин",
+          "Исходник"
+        ],
+        [
+          "06:30–09:00",
+          "Fushimi Inari Taisha",
+          "UNVERIFIED",
+          "2 ч 30 мин",
+          "Исходник: 24/7, бесплатно; внутренние объекты требуют проверки"
+        ],
+        [
+          "09:00–10:00",
+          "Inari → Kyoto → Saga-Arashiyama",
+          "USER DATA",
+          "40–50 мин",
+          "Исходник"
+        ],
+        [
+          "10:00–14:00",
+          "Arashiyama: Tenryu-ji, Jojakko-ji, Gio-ji, Togetsukyo",
+          "CONFLICT",
+          "4 ч",
+          "Tenryu-ji: спецраннее открытие 07:30 с 14–30 ноября 2026; Gio-ji закрывает приём в 16:30"
+        ],
+        [
+          "14:00–15:00",
+          "Возвращение в Киото",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "вечер",
+          "Понтотё / Нисики",
+          "ALTERNATIVE",
+          "—",
+          "Исходник"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "day": 8,
+      "city": "Киото → Осака",
+      "overnight": "Henn na Hotel Osaka Namba",
+      "theme": "Переезд → замок → Намба → Дотонбори",
+      "items": [
+        [
+          "07:00–09:00",
+          "Подъём и сборы",
+          "USER DATA",
+          "2 ч",
+          "Исходник"
+        ],
+        [
+          "09:00–09:30",
+          "Kyoto → Osaka, JR Special Rapid",
+          "USER DATA",
+          "30 мин",
+          "Исходник; точный поезд не указан"
+        ],
+        [
+          "09:30–12:00",
+          "Переезд/багаж/заселение или хранение багажа",
+          "ESTIMATE",
+          "2 ч 30 мин",
+          "Check-in не зафиксирован"
+        ],
+        [
+          "12:00–14:00",
+          "Osaka Castle",
+          "CONFLICT",
+          "2 ч",
+          "Исходник ¥600; актуальная цена взрослого ¥1,200"
+        ],
+        [
+          "15:00–16:00",
+          "Namba Yasaka Shrine",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "16:00–17:00",
+          "Hozenji Yokocho",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "17:00–18:30",
+          "Namba Parks",
+          "USER DATA",
+          "1 ч 30 мин",
+          "Исходник"
+        ],
+        [
+          "19:00–22:00",
+          "Dotonbori",
+          "USER DATA",
+          "3 ч",
+          "Исходник"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "day": 9,
+      "city": "Осака",
+      "overnight": "Henn na Hotel Osaka Namba",
+      "theme": "Universal Studios Japan",
+      "items": [
+        [
+          "06:00–07:00",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "07:00–08:00",
+          "Отель → Universal City",
+          "USER DATA",
+          "≈20 мин в пути + запас",
+          "Исходник"
+        ],
+        [
+          "08:00–вечер",
+          "USJ",
+          "VERIFIED",
+          "весь день",
+          "Studio Pass требует выбора даты; Super Nintendo World может требовать timed entry"
+        ],
+        [
+          "до 12:00 или после 14:00",
+          "Обед",
+          "USER DATA",
+          "—",
+          "Исходник"
+        ],
+        [
+          "вечер",
+          "Hollywood Dream / возвращение",
+          "USER DATA",
+          "—",
+          "Исходник"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "day": 10,
+      "city": "Осака → Нара → Осака",
+      "overnight": "Henn na Hotel Osaka Namba",
+      "theme": "Нара",
+      "items": [
+        [
+          "07:00–08:00",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "08:00–08:45",
+          "Osaka-Namba → Kintetsu-Nara",
+          "CONFLICT",
+          "35–45 мин",
+          "Актуальный справочник Kintetsu показывает regular fare ¥680; исходник ¥580"
+        ],
+        [
+          "08:45–17:00",
+          "Nara Park / Todai-ji / Kasuga Taisha",
+          "CONFLICT",
+          "8 ч 15 мин",
+          "Todai-ji: ноябрь–март 08:00–17:00, adult ¥800; исходник содержит устаревшие данные"
+        ],
+        [
+          "вечер",
+          "Shinsaibashi",
+          "USER DATA",
+          "—",
+          "Исходник"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "day": 11,
+      "city": "Осака → Химэдзи → Осака",
+      "overnight": "Henn na Hotel Osaka Namba",
+      "theme": "Химэдзи → Koko-en → Spa World",
+      "items": [
+        [
+          "07:00–08:00",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "08:00–09:00",
+          "Osaka → Himeji, JR Special Rapid",
+          "VERIFIED",
+          "≈1 ч",
+          "Официальный сайт Himeji Castle указывает около 1 ч от Osaka"
+        ],
+        [
+          "09:30–12:30",
+          "Himeji Castle",
+          "CONFLICT",
+          "3 ч",
+          "Актуально: 09:00–17:00, вход до 16:00, adult ¥2,500"
+        ],
+        [
+          "13:00–14:30",
+          "Koko-en",
+          "UNVERIFIED",
+          "1 ч 30 мин",
+          "Исходник ¥300; актуальный combo castle+Koko-en ¥2,600"
+        ],
+        [
+          "15:30–17:00",
+          "Возвращение в Osaka",
+          "USER DATA",
+          "1 ч 30 мин",
+          "Исходник"
+        ],
+        [
+          "19:30–23:00",
+          "Spa World",
+          "UNVERIFIED",
+          "3 ч 30 мин",
+          "Исходник: 24/7 и ¥1,500–2,400; требуется отдельная проверка"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "day": 12,
+      "city": "Осака",
+      "overnight": "Henn na Hotel Osaka Namba",
+      "theme": "Кацуо-дзи → Синсэкай",
+      "items": [
+        [
+          "07:00–08:00",
+          "Подъём и выезд",
+          "USER DATA",
+          "1 ч",
+          "Исходник"
+        ],
+        [
+          "09:00–12:00",
+          "Katsuo-ji",
+          "VERIFIED",
+          "3 ч",
+          "Вс: 08:00–17:00, last entry 16:30; adult ¥500"
+        ],
+        [
+          "12:00–14:00",
+          "Обед / возвращение",
+          "ESTIMATE",
+          "2 ч",
+          "Исходник"
+        ],
+        [
+          "14:00–16:00",
+          "Отдых в Osaka",
+          "USER DATA",
+          "2 ч",
+          "Исходник"
+        ],
+        [
+          "18:00–22:00",
+          "Shinsekai / Tsutenkaku",
+          "UNVERIFIED",
+          "4 ч",
+          "Цена/часы Tsutenkaku требуют проверки"
+        ]
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "day": 13,
+      "city": "Осака → Токио",
+      "overnight": "ano Hotel asakusa",
+      "theme": "Синкансэн в Токио",
+      "items": [
+        [
+          "06:30–08:30",
+          "Подъём, сборы, выезд",
+          "USER DATA",
+          "2 ч",
+          "Исходник"
+        ],
+        [
+          "08:30–08:50",
+          "Namba → Shin-Osaka",
+          "USER DATA",
+          "20 мин",
+          "Исходник"
+        ],
+        [
+          "утро",
+          "Hikari Shin-Osaka → Tokyo",
+          "USER DATA",
+          "≈2 ч 30 мин",
+          "Точный поезд/тариф не указан"
+        ],
+        [
+          "после прибытия",
+          "Заселение в ano Hotel asakusa",
+          "CONFLICT",
+          "—",
+          "Адрес в исходнике не совпадает с официальным сайтом"
+        ],
+        [
+          "вечер",
+          "Asakusa Imahan / Hoppy Street",
+          "USER DATA",
+          "—",
+          "Исходник"
+        ]
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "day": 14,
+      "city": "Токио → Пекин → Москва",
+      "overnight": "В пути",
+      "theme": "Вылет домой",
+      "items": [
+        [
+          "05:30–08:30",
+          "Подъём / утро",
+          "USER DATA",
+          "3 ч",
+          "Исходник; слишком ранний блок относительно рейса 15:40"
+        ],
+        [
+          "≈07:00–09:30",
+          "Опционально Toyosu Market",
+          "ALTERNATIVE",
+          "≈2 ч 30 мин",
+          "Исходник предлагает при рейсе после 15:00; часы рынка требуют отдельной проверки"
+        ],
+        [
+          "≈11:00",
+          "Выезд Asakusa → Haneda T3",
+          "ESTIMATE",
+          "≈1–1.5 ч",
+          "Точный маршрут проверить перед выездом"
+        ],
+        [
+          "12:40",
+          "Желательно быть в Haneda",
+          "VERIFIED",
+          "—",
+          "Itinerary рекомендует прибыть минимум за 3 ч до вылета"
+        ],
+        [
+          "15:40",
+          "CZ648 Haneda T3 → Beijing Daxing",
+          "VERIFIED",
+          "4 ч 15 мин",
+          "Загруженный itinerary PDF: 15:40 → 18:55"
+        ],
+        [
+          "18:55",
+          "Прибытие Beijing Daxing",
+          "USER DATA",
+          "—",
+          "Загруженный itinerary PDF"
+        ],
+        [
+          "2026-12-02 13:15",
+          "CZ341 Beijing → Moscow",
+          "USER DATA",
+          "—",
+          "Загруженный itinerary PDF"
+        ]
+      ]
+    }
+  ],
+  "transfers": [
+    [
+      "2026-11-17",
+      "Moscow Sheremetyevo C",
+      "Guangzhou Baiyun T2",
+      "CZ8028",
+      "14:50",
+      "05:15 +1",
+      "≈7 ч 25 мин",
+      "USER DATA"
+    ],
+    [
+      "2026-11-18",
+      "Guangzhou Baiyun T2",
+      "Narita T1",
+      "CZ8101",
+      "08:10",
+      "13:15",
+      "5 ч 05 мин",
+      "USER DATA"
+    ],
+    [
+      "2026-11-22",
+      "Tokyo",
+      "Kyoto",
+      "Hikari Shinkansen",
+      "09:00–09:30 target",
+      "≈11:40–12:10",
+      "≈2 ч 40 мин",
+      "USER DATA"
+    ],
+    [
+      "2026-11-25",
+      "Kyoto",
+      "Osaka",
+      "JR Special Rapid",
+      "09:00 target",
+      "≈09:30",
+      "≈30 мин",
+      "USER DATA"
+    ],
+    [
+      "2026-11-30",
+      "Shin-Osaka",
+      "Tokyo",
+      "Hikari Shinkansen",
+      "morning target",
+      "≈2.5 h later",
+      "≈2 ч 30 мин",
+      "USER DATA"
+    ],
+    [
+      "2026-12-01",
+      "Haneda T3",
+      "Beijing Daxing",
+      "CZ648",
+      "15:40",
+      "18:55",
+      "4 ч 15 мин",
+      "VERIFIED"
+    ],
+    [
+      "2026-12-02",
+      "Beijing Daxing",
+      "Moscow Sheremetyevo C",
+      "CZ341",
+      "13:15",
+      "17:10",
+      "≈8 ч 55 мин",
+      "USER DATA"
+    ]
+  ],
+  "locations": [
+    [
+      "Senso-ji",
+      "浅草寺",
+      "Токио",
+      "CONFLICT",
+      "2-3-1 Asakusa",
+      "В исходнике 17:00; официальный сайт: основной зал в ноябре закрывается в 17:00 по формулировке страницы, при этом источник указывает сезон 10–3 как 06:30–17:00; вечер допустим как территория/экстерьер."
+    ],
+    [
+      "Ueno Park",
+      "上野恩賜公園",
+      "Токио",
+      "VERIFIED",
+      "Ueno Park, Taito-ku",
+      "Парк постоянно открыт; отдельные объекты имеют собственные часы."
+    ],
+    [
+      "Shinjuku Gyoen",
+      "新宿御苑",
+      "Токио",
+      "VERIFIED",
+      "11 Naitomachi, Shinjuku-ku",
+      "09:00–16:30, last entry 16:00; 19 Nov 2026 не является закрытым понедельником."
+    ],
+    [
+      "Mount Takao",
+      "高尾山",
+      "Токио",
+      "VERIFIED",
+      "Takaomachi, Hachioji",
+      "Канатка: ноябрь, будни до 17:45, выходные/праздники до 18:00; ¥490 one-way."
+    ],
+    [
+      "Meiji Jingu",
+      "明治神宮",
+      "Токио",
+      "VERIFIED",
+      "1-1 Yoyogikamizonocho",
+      "Ноябрь 06:10–16:10."
+    ],
+    [
+      "Koishikawa Korakuen",
+      "小石川後楽園",
+      "Токио",
+      "UNVERIFIED",
+      "1-6-6 Koraku, Bunkyo",
+      "Исходник 09:00–17:00 / ¥300; цену требуется проверить."
+    ],
+    [
+      "Kiyomizu-dera",
+      "清水寺",
+      "Киото",
+      "VERIFIED",
+      "1-294 Kiyomizu",
+      "21–30 Nov 2026: до 21:30, last entry 21:00."
+    ],
+    [
+      "Kinkaku-ji",
+      "金閣寺",
+      "Киото",
+      "VERIFIED",
+      "1 Kinkakujicho, Kita-ku",
+      "09:00–17:00; официальный текущий тариф ¥500."
+    ],
+    [
+      "Ryoan-ji",
+      "龍安寺",
+      "Киото",
+      "UNVERIFIED",
+      "13 Ryoanji Goryonoshitacho",
+      "Исходник 08:00–17:00 / ¥600; требуется актуальная проверка цены."
+    ],
+    [
+      "Nishiki Market",
+      "錦市場",
+      "Киото",
+      "VERIFIED",
+      "Nishikikoji-dori, Nakagyo-ku",
+      "Официальный портал: не есть на ходу; часы конкретных лавок различаются."
+    ],
+    [
+      "Fushimi Inari Taisha",
+      "伏見稲荷大社",
+      "Киото",
+      "UNVERIFIED",
+      "68 Fukakusa Yabunouchicho",
+      "Исходник: 24/7, бесплатно; внутренние объекты требуют проверки."
+    ],
+    [
+      "Tenryu-ji",
+      "天龍寺",
+      "Киото",
+      "VERIFIED",
+      "68 Susukinobaba-cho, Ukyo-ku",
+      "14–30 Nov 2026: специальный ранний вход в сад с 07:30; garden ¥500."
+    ],
+    [
+      "Jojakko-ji",
+      "常寂光寺",
+      "Киото",
+      "UNVERIFIED",
+      "3-1 Sagatoriimoto Jojakkojicho",
+      "Исходник 09:00–17:00 / ¥500."
+    ],
+    [
+      "Gio-ji",
+      "祇王寺",
+      "Киото",
+      "UNVERIFIED",
+      "32 Sagatoriimoto Kozakacho",
+      "Официальная страница доступна, актуальную цену 2026 требуется сверить."
+    ],
+    [
+      "Osaka Castle",
+      "大阪城天守閣",
+      "Осака",
+      "CONFLICT",
+      "1-1 Osakajo",
+      "Исходник ¥600; актуальный взрослый тариф ¥1,200. Часы в источниках 09:00–17:00/18:00 требуют финальной сверки."
+    ],
+    [
+      "Universal Studios Japan",
+      "ユニバーサル・スタジオ・ジャパン",
+      "Осака",
+      "VERIFIED",
+      "2-1-33 Sakurajima",
+      "Studio Pass требует выбора даты; Super Nintendo World timed entry может потребоваться."
+    ],
+    [
+      "Nara Park",
+      "奈良公園",
+      "Нара",
+      "UNVERIFIED",
+      "Nara Park",
+      "Парк бесплатный; утверждение «1,200+ оленей» из исходника не проверялось."
+    ],
+    [
+      "Todai-ji",
+      "東大寺",
+      "Нара",
+      "VERIFIED",
+      "406-1 Zoshicho",
+      "Nov–Mar 08:00–17:00; adult ¥800."
+    ],
+    [
+      "Kasuga Taisha",
+      "春日大社",
+      "Нара",
+      "UNVERIFIED",
+      "160 Kasuganocho",
+      "Исходник 06:30–17:30; требует проверки."
+    ],
+    [
+      "Himeji Castle",
+      "姫路城",
+      "Химэдзи",
+      "VERIFIED",
+      "68 Honmachi",
+      "09:00–17:00; entry до 16:00; adult ¥2,500; combo с Koko-en ¥2,600."
+    ],
+    [
+      "Koko-en",
+      "好古園",
+      "Химэдзи",
+      "UNVERIFIED",
+      "68 Honmachi vicinity",
+      "Исходник ¥300; актуальный комбинированный билет castle+Koko-en ¥2,600."
+    ],
+    [
+      "Spa World",
+      "スパワールド",
+      "Осака",
+      "UNVERIFIED",
+      "3-4-24 Ebisucho",
+      "Исходник: 24/7 и ¥1,500–2,400; требует проверки."
+    ],
+    [
+      "Katsuo-ji",
+      "勝尾寺",
+      "Мино",
+      "VERIFIED",
+      "箕面市勝尾寺",
+      "Воскресенье: 08:00–17:00, last entry 16:30; adult ¥500."
+    ],
+    [
+      "Shinsekai",
+      "新世界",
+      "Осака",
+      "UNVERIFIED",
+      "Shinsekai, Naniwa-ku",
+      "Район; часы отдельных заведений различаются."
+    ],
+    [
+      "Tsutenkaku",
+      "通天閣",
+      "Осака",
+      "UNVERIFIED",
+      "1-18-6 Ebisuhigashi",
+      "Исходник ¥900; актуальные часы/цена требуют проверки."
+    ]
+  ],
+  "food": [
+    [
+      "Токио",
+      "Daikokuya",
+      "Тэндон",
+      "¥2,000–3,500",
+      "UNVERIFIED"
+    ],
+    [
+      "Токио",
+      "Namiki Yabu Soba",
+      "Соба",
+      "¥800–1,800",
+      "UNVERIFIED"
+    ],
+    [
+      "Токио",
+      "Asakusa Imahan",
+      "Сукияки",
+      "¥5,000–10,000",
+      "UNVERIFIED"
+    ],
+    [
+      "Токио",
+      "USHIHACHI Kiwami",
+      "Якинику",
+      "¥4,000–8,000",
+      "UNVERIFIED"
+    ],
+    [
+      "Киото",
+      "Gion Karyo",
+      "Кайсэки",
+      "¥8,000–15,000",
+      "UNVERIFIED"
+    ],
+    [
+      "Киото",
+      "Gontaro",
+      "Удон / кацунабэ",
+      "¥1,500–3,000",
+      "UNVERIFIED"
+    ],
+    [
+      "Киото",
+      "Nishiki Warai",
+      "Окономияки",
+      "¥1,500–2,500",
+      "UNVERIFIED"
+    ],
+    [
+      "Киото",
+      "Arashiyama Yoshimura",
+      "Соба",
+      "¥1,500–2,500",
+      "UNVERIFIED"
+    ],
+    [
+      "Осака",
+      "Takoyaki Wanaka",
+      "Такояки",
+      "¥500–700",
+      "UNVERIFIED"
+    ],
+    [
+      "Осака",
+      "Mizuno",
+      "Окономияки",
+      "¥1,500–2,500",
+      "UNVERIFIED"
+    ],
+    [
+      "Осака",
+      "Kushikatsu Daruma",
+      "Кусикацу",
+      "¥1,500–2,500",
+      "UNVERIFIED"
+    ],
+    [
+      "Осака",
+      "551 Horai",
+      "Никуман",
+      "¥180",
+      "UNVERIFIED"
+    ],
+    [
+      "Нара",
+      "Nakatanidou",
+      "Моти",
+      "¥150–200",
+      "UNVERIFIED"
+    ],
+    [
+      "Химэдзи",
+      "Анаго-мэси",
+      "Рис с анаго",
+      "¥2,000–3,500",
+      "UNVERIFIED"
+    ]
+  ],
+  "sources": [
+    [
+      "Senso-ji official",
+      "https://www.senso-ji.jp/",
+      "hours/address"
+    ],
+    [
+      "Meiji Jingu official",
+      "https://www.meijijingu.or.jp/en/opening/",
+      "hours/admission"
+    ],
+    [
+      "Shinjuku Gyoen official",
+      "https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/",
+      "hours/closed days/admission"
+    ],
+    [
+      "Shinjuku Gyoen November 2026 calendar",
+      "https://policies.env.go.jp/national-garden/shinjukugyoen/english/event/calendar/202611.html",
+      "specific date"
+    ],
+    [
+      "Takao official",
+      "https://www.takaotozan.co.jp/timeprice/",
+      "ropeway/lift hours and fare"
+    ],
+    [
+      "Kiyomizu-dera official",
+      "https://www.kiyomizudera.or.jp/en/visit/special_night_viewing/",
+      "2026 autumn night viewing"
+    ],
+    [
+      "Tenryu-ji official",
+      "https://www.tenryuji.com/en/visit/",
+      "hours/admission/access"
+    ],
+    [
+      "Kinkaku-ji official",
+      "https://www.shokoku-ji.jp/zh/kinkakuji/",
+      "hours/admission/address"
+    ],
+    [
+      "Nishiki Market official",
+      "https://www.kyoto-nishiki.or.jp/en/access/",
+      "visitor rules"
+    ],
+    [
+      "USJ official",
+      "https://www.usj.co.jp/web/en/us",
+      "tickets/2026 events"
+    ],
+    [
+      "Todaiji official",
+      "https://www.todaiji.or.jp/en/information/haikan/",
+      "hours/admission"
+    ],
+    [
+      "Himeji Castle official",
+      "https://www.himejicastle.jp/en/",
+      "hours/admission/access"
+    ],
+    [
+      "Katsuo-ji official",
+      "https://katsuo-ji-temple.or.jp/access/index.php",
+      "hours/admission/access"
+    ],
+    [
+      "ano Hotel asakusa official",
+      "https://hpdsp.jp/anohotelasakusa/",
+      "address/access"
+    ],
+    [
+      "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo official",
+      "https://sotetsu-hotels.com/en/fresa-inn/kiyomizugojo/",
+      "address/access"
+    ],
+    [
+      "Henn na Hotel Osaka Namba official",
+      "https://global.hennnahotel.com/en/nishishinsaibashi/",
+      "address/access"
+    ],
+    [
+      "China Southern",
+      "https://www.csair.com/",
+      "airline; exact flight schedule should be rechecked in booking system"
+    ],
+    [
+      "Original GitHub repository",
+      "https://github.com/stanislavchernov2010-eng/Japane",
+      "source repository"
+    ]
+  ]
+}

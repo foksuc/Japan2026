@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Senso-ji official",
+    "url": "https://www.senso-ji.jp/",
+    "scope": "hours/address"
+  },
+  {
+    "name": "Meiji Jingu official",
+    "url": "https://www.meijijingu.or.jp/en/opening/",
+    "scope": "hours/admission"
+  },
+  {
+    "name": "Shinjuku Gyoen official",
+    "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/",
+    "scope": "hours/closed days/admission"
+  },
+  {
+    "name": "Shinjuku Gyoen November 2026 calendar",
+    "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/english/event/calendar/202611.html",
+    "scope": "specific date"
+  },
+  {
+    "name": "Takao official",
+    "url": "https://www.takaotozan.co.jp/timeprice/",
+    "scope": "ropeway/lift hours and fare"
+  },
+  {
+    "name": "Kiyomizu-dera official",
+    "url": "https://www.kiyomizudera.or.jp/en/visit/special_night_viewing/",
+    "scope": "2026 autumn night viewing"
+  },
+  {
+    "name": "Tenryu-ji official",
+    "url": "https://www.tenryuji.com/en/visit/",
+    "scope": "hours/admission/access"
+  },
+  {
+    "name": "Kinkaku-ji official",
+    "url": "https://www.shokoku-ji.jp/zh/kinkakuji/",
+    "scope": "hours/admission/address"
+  },
+  {
+    "name": "Nishiki Market official",
+    "url": "https://www.kyoto-nishiki.or.jp/en/access/",
+    "scope": "visitor rules"
+  },
+  {
+    "name": "USJ official",
+    "url": "https://www.usj.co.jp/web/en/us",
+    "scope": "tickets/2026 events"
+  },
+  {
+    "name": "Todaiji official",
+    "url": "https://www.todaiji.or.jp/en/information/haikan/",
+    "scope": "hours/admission"
+  },
+  {
+    "name": "Himeji Castle official",
+    "url": "https://www.himejicastle.jp/en/",
+    "scope": "hours/admission/access"
+  },
+  {
+    "name": "Katsuo-ji official",
+    "url": "https://katsuo-ji-temple.or.jp/access/index.php",
+    "scope": "hours/admission/access"
+  },
+  {
+    "name": "ano Hotel asakusa official",
+    "url": "https://hpdsp.jp/anohotelasakusa/",
+    "scope": "address/access"
+  },
+  {
+    "name": "Sotetsu Fresa Inn Kyoto-Kiyomizu Gojo official",
+    "url": "https://sotetsu-hotels.com/en/fresa-inn/kiyomizugojo/",
+    "scope": "address/access"
+  },
+  {
+    "name": "Henn na Hotel Osaka Namba official",
+    "url": "https://global.hennnahotel.com/en/nishishinsaibashi/",
+    "scope": "address/access"
+  },
+  {
+    "name": "China Southern",
+    "url": "https://www.csair.com/",
+    "scope": "airline; exact flight schedule should be rechecked in booking system"
+  },
+  {
+    "name": "Original GitHub repository",
+    "url": "https://github.com/stanislavchernov2010-eng/Japane",
+    "scope": "source repository"
+  }
+]

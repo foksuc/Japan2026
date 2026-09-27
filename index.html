@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111827">
+<meta name="description" content="Аудированный маршрут по Японии 18.11–01.12.2026">
+<title>Япония 2026 · Аудированный маршрут</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div>
+      <div class="eyebrow">JAPAN · 2026</div>
+      <h1>Токио → Киото → Осака → Токио</h1>
+      <p>18 ноября — 1 декабря · проверка данных: 28 сентября 2026</p>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Переключить тему">◐</button>
+  </div>
+</header>
+
+<nav class="nav">
+  <a href="#home">Главная</a><a href="#days">Дни</a><a href="#cities">Города</a>
+  <a href="#locations">Локации</a><a href="#transfers">Переезды</a>
+  <a href="#check">Проверка</a><a href="#food">Еда</a><a href="#sources">Источники</a>
+</nav>
+
+<main id="home" class="container">
+<section class="hero">
+  <div>
+    <span class="status verified">VERIFIED</span>
+    <h2>Маршрут сохранён, неопределённость вынесена наружу</h2>
+    <p>Исходная последовательность не оптимизировалась молча. Конфликты, оценки и неподтверждённые данные отмечены отдельно.</p>
+  </div>
+  <div class="stats">
+    <div><b id="dayCount">14</b><span>дней маршрута</span></div>
+    <div><b id="cityCount">3</b><span>города</span></div>
+    <div><b id="locCount">25</b><span>локаций</span></div>
+    <div><b id="conflictCount">0</b><span>конфликтов</span></div>
+  </div>
+</section>
+
+<section class="alert critical">
+  <strong>Критично перед поездкой:</strong>
+  исходный HTML содержит неверный адрес ano Hotel asakusa, устаревшие цены нескольких объектов и не учитывает фактический прилёт 13:15 в Нариту. Обратный рейс CZ648 отправляется 1 декабря в 15:40 из Haneda T3.
+</section>
+
+<section id="days">
+  <div class="section-head"><h2>Маршрут по дням</h2><div class="filters">
+    <input id="search" placeholder="Поиск по маршруту…">
+    <select id="statusFilter"><option value="">Все статусы</option><option>VERIFIED</option><option>USER DATA</option><option>ESTIMATE</option><option>UNVERIFIED</option><option>CONFLICT</option><option>ALTERNATIVE</option></select>
+    <select id="cityFilter"><option value="">Все города</option><option>Токио</option><option>Киото</option><option>Осака</option><option>Химэдзи</option><option>Нара</option></select>
+  </div></div>
+  <div id="dayList"></div>
+</section>
+
+<section id="cities">
+  <h2>Города и ночёвки</h2>
+  <div id="cityList" class="grid"></div>
+</section>
+
+<section id="locations">
+  <h2>Локации</h2>
+  <div id="locationList" class="grid"></div>
+</section>
+
+<section id="transfers">
+  <h2>Переезды и перелёты</h2>
+  <div class="table-wrap"><table><thead><tr><th>Дата</th><th>Откуда → куда</th><th>Транспорт</th><th>Время</th><th>Статус</th></tr></thead><tbody id="transferRows"></tbody></table></div>
+</section>
+
+<section id="check">
+  <h2>Проверка маршрута</h2>
+  <div class="check-grid">
+    <article class="check-card bad"><h3>Исправлено / конфликт</h3><ul>
+      <li>Прилёт NRT: 13:15 вместо 15:00.</li>
+      <li>Адрес ano Hotel asakusa требует замены на официальный.</li>
+      <li>Kinkaku-ji: исходные ¥400 → текущие ¥500.</li>
+      <li>Osaka Castle: исходные ¥600 → текущие ¥1,200.</li>
+      <li>Todai-ji: исходные часы/цена устарели.</li>
+      <li>Himeji Castle: исходные ¥1,000 → текущие ¥2,500.</li>
+      <li>Katsuo-ji: исходные ¥400 → текущие ¥500.</li>
+      <li>Kanatka Takao: ¥480 → ¥490 one-way.</li>
+      <li>В исходнике отсутствует рабочий `sw.js`.</li>
+    </ul></article>
+    <article class="check-card"><h3>Что нельзя считать подтверждённым</h3><ul>
+      <li>Конкретные номера Shinkansen и точные тарифы на даты поездки.</li>
+      <li>Цены большинства ресторанов.</li>
+      <li>Некоторые часы отдельных объектов и заведений.</li>
+      <li>Общий бюджет: в исходнике нет полноценного расчёта.</li>
+      <li>Точный утренний маршрут Asakusa → Haneda 1 декабря.</li>
+    </ul></article>
+  </div>
+</section>
+
+<section id="food">
+  <h2>Питание из исходного маршрута</h2>
+  <p class="muted">Цены ресторанов не были массово проверены по актуальным меню и поэтому помечены UNVERIFIED.</p>
+  <div id="foodList" class="grid"></div>
+</section>
+
+<section id="sources">
+  <h2>Источники</h2>
+  <div id="sourceList" class="source-list"></div>
+</section>
+</main>
+<footer>Japan 2026 · статический проект · без backend · относительные пути</footer>
+<script src="./script.js"></script>
+</body>
+</html>
